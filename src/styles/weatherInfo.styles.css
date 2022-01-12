@@ -1,0 +1,32 @@
+.weather-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: #072227;
+    border-radius: 15px;
+}
+
+.weather-container .img-container{
+    margin-bottom: 20px;
+}
+.weather-container .img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.weather-container .info-container h3{
+    font-size: 20px;
+    color: #D3DEDC;
+}
+.weather-container .info-container button{   
+    background-color: #D3DEDC;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    color: #072227;
+    font-size: 16px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
